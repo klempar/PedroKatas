@@ -101,3 +101,4 @@ C:\Users\e10137484\RiderProjects\PedroKatas\PedroKatas\obj\Debug\net9.0\refint\P
 C:\Users\e10137484\RiderProjects\PedroKatas\PedroKatas\obj\Debug\net9.0\PedroKatas.pdb
 C:\Users\e10137484\RiderProjects\PedroKatas\PedroKatas\obj\Debug\net9.0\PedroKatas.genruntimeconfig.cache
 C:\Users\e10137484\RiderProjects\PedroKatas\PedroKatas\obj\Debug\net9.0\ref\PedroKatas.dll
+C:\Users\e10137484\RiderProjects\PedroKatas\PedroKatas\obj\Debug\net9.0\PedroKatas.sourcelink.json

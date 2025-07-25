@@ -46,22 +46,23 @@ namespace PedroKatas
     {
         private readonly List<DiceValue> _dice;
 
+        // TODO: refactor to use 5 seperate values instead of a list.
         public Roll(IEnumerable<int> dice)
         {
             _dice = dice.Select(d => new DiceValue(d)).ToList();
         }
 
-        public int SumMatching(int value)
+        public int SumMatching(int value) // TODO: Use DiceValue instead of int
         {
             return _dice.Where(d => d.IsEqualTo(value)).Sum(d => d.AsInt());
         }
 
-        public bool MatchesExact(params int[] expected)
+        public bool MatchesExact(params int[] expected)  // TODO: Use DiceValue instead of int
         {
             return _dice.Select(d => d.AsInt()).ToHashSet().SetEquals(expected);
         }
 
-        public List<int> FindGroupsWithSizeAtLeast(int size)
+        public List<int> FindGroupsWithSizeAtLeast(int size)  // TODO: Use DiceValue instead of int
         {
             return _dice
                 .GroupBy(d => d.AsInt())
